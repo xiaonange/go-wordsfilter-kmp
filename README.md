@@ -42,11 +42,11 @@ func main() {
 
     // Remove
     c3 := kmp.Replace("什么作用域")
-    // c3: 什么
+    // c3: 什么"*******"
 
     // Replace
     r1 := kmp.Remove("什么作用域")
-    // r1: "*******什么"
+    // r1: "什么"
 }
 ```
 
